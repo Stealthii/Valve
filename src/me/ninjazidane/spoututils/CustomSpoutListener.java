@@ -1,20 +1,12 @@
 
-package me.ninjazidane.valve.listeners;
-
-import me.ninjazidane.valve.Valve;
+package me.ninjazidane.spoututils;
 
 import org.bukkit.Material;
 import org.getspout.spoutapi.event.spout.SpoutCraftEnableEvent;
 import org.getspout.spoutapi.event.spout.SpoutListener;
 import org.getspout.spoutapi.player.SpoutPlayer;
 
-public class ValveSpoutListener extends SpoutListener{
-
-    Valve plugin;
-    
-    public ValveSpoutListener (Valve plugin) {
-        this.plugin = plugin;
-    }
+public class CustomSpoutListener extends SpoutListener {
     
     @Override
     public void onSpoutCraftEnable(SpoutCraftEnableEvent event) {
